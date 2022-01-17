@@ -11,7 +11,7 @@ git init - инициализация проекта. Предварительн
 	
 !!!!!!!!!!!
 При создании нового проекта добавляем его в git
-git remote add origin https://github.com/leo6255/hhh.git
+git remote add origin https://github.com/leo6255/MyGitHelp.git
 ----------------
 
 Добавление файлов
