@@ -1,5 +1,5 @@
 # MyGitHelp
-
+----------------
 Установка git
 git remote set-url origin https://<githubtoken>@github.com/<username>/<repositoryname>.git
 git init - инициализация проекта. Предварительно нужно перейти в папку проекта(при этом создается скрытая папка .git).
