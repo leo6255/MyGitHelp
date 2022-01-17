@@ -2,16 +2,14 @@
 ----------------
 Установка git
 git remote set-url origin https://<githubtoken>@github.com/<username>/<repositoryname>.git
-git remote set-url origin https://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@github.com/leo6255/MyGitHelp.git
+git remote set-url origin https://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@github.com/leo6255/MyGitHelp.git
 git init - инициализация проекта. Предварительно нужно перейти в папку проекта(при этом создается скрытая папка .git).
 
 если ругается на сертификат, то есть ssl определяет, что кто-то перехватывает ваш трафик, можно отключить проверку, добавив в файл .git/config
 [http]
 	sslVerify = false
 	
-!!!!!!!!!!!
-При создании нового проекта добавляем его в git
-git remote add origin https://github.com/leo6255/MyGitHelp.git
+git remote -v - посмотреть адреса для чтения и записи, привязанные к репозиторию
 ----------------
 
 Добавление файлов
