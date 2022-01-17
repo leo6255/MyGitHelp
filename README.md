@@ -9,6 +9,9 @@ git init - инициализация проекта. Предварительн
 [http]
 	sslVerify = false
 	
+!!!!!!!!!!!
+При создании нового проекта добавляем его в git
+git remote add origin https://github.com/leo6255/hhh.git
 ----------------
 
 Добавление файлов
@@ -22,5 +25,3 @@ git brunch - посмотреть на какой ветке сейчас нах
 git brunch test - создать ветку test
 git brunch -D test - удалить ветку test
 git checkout test - перейти в ветку test
-
-!!!!!!!!!!!
