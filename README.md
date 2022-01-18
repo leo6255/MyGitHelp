@@ -4,9 +4,6 @@
 git init - инициализация проекта. Предварительно нужно перейти в папку проекта(при этом создается скрытая папка .git).
 git remote add 
 
-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
-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
-
 если ругается на сертификат, то есть ssl определяет, что кто-то перехватывает ваш трафик, можно отключить проверку, добавив в файл .git/config
 [http]
 	sslVerify = false
@@ -16,8 +13,8 @@ git remote -v - посмотреть адреса для чтения и зап�
 ----------------
 Добавление репозитория
 git remote set-url origin https://<githubtoken>@github.com/<username>/<repositoryname>.git
-git remote add fc https://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@github.com/leo6255/FolderCleaner.git
-git remote add mgh https://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@github.com/leo6255/MyGitHelp.git
+git remote add fc https://<githubtoken>@github.com/leo6255/FolderCleaner.git
+git remote add mgh https://<githubtoken>@github.com/leo6255/MyGitHelp.git
 
 ----------------
 
